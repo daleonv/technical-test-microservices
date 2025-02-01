@@ -39,3 +39,9 @@ El siguiente paso es aplicar los mismos comandos en cada uno de los microservici
 
 y posteriormente se ejecuta
 > gradle gradle bootRun
+
+Para el proyecto **app-front**, basta con ejecutar:
+> npm install
+
+y posteriormente se ejecuta
+> ng serve
