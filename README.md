@@ -4,22 +4,17 @@
 El problema propuesto fue solventado usando springboot orientado a microservicios para el  **backend** y Angular para el **frontend**
 
 
-# Repositorios
-Módulo de dependencias y versiones
-[app-gradle.git](https://github.com/daleonv/app-gradle.git)
+## Estructura del Proyecto  
 
-Módulo para el mapeo de entidades
-[app-entities.git](https://github.com/daleonv/app-entities.git)
+| Módulo | Descripción |
+|--------|------------|
+| **🔗 [app-gradle.git](https://github.com/daleonv/app-gradle.git)** | Contiene la configuración de dependencias y versiones compartidas entre los microservicios. |
+| **📦 [app-entities.git](https://github.com/daleonv/app-entities.git)** | Módulo que define las entidades y modelos de datos utilizados por los microservicios. |
+| **⚙️ [app-config.git](https://github.com/daleonv/app-config.git)** | Contiene los microservicios de configuración como **Eureka Service Registry** y **API Gateway** para la gestión y comunicación entre servicios. |
+| **🛠️ [app-person.git](https://github.com/daleonv/app-person.git)** | Microservicio responsable de la gestión de personas (usuarios, clientes, etc.). |
+| **📑 [app-procedure.git](https://github.com/daleonv/app-procedure.git)** | Microservicio encargado de los procesos administrativos o procedimientos específicos del negocio. |
+| **🎨 [app-front.git](https://github.com/daleonv/app-front.git)** | Aplicación **Front-End** desarrollada en **Angular**, encargada de la interfaz de usuario. |
 
-Microservicios de configuración (Eureka, Api Gateway)
-[app-config.git](https://github.com/daleonv/app-config.git)
-
-Microservicios de negocio
-[app-person.git](https://github.com/daleonv/app-person.git)
-[app-procedure.git](https://github.com/daleonv/app-procedure.git)
-
-Front-End
-[app-front.git](https://github.com/daleonv/app-front.git)
 
 
 ## Instrucciones
