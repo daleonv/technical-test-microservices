@@ -33,9 +33,9 @@ Este repositorio contiene la solución a la **Prueba Técnica** basada en una **
 ## 🚀 Funcionalidades Implementadas
 
 - **Gestión de Clientes:** CRUD completo para la entidad cliente.
-- **Gestión de Cuentas:** Creación, actualización y eliminación de cuentas bancarias.
+- **Gestión de Cuentas:** Creación de cuentas bancarias.
 - **Gestión de Movimientos:** Registro de depósitos y retiros, con validaciones de saldo.
-- **Generación de Reportes:** Consulta de movimientos por cliente y rango de fechas, con exportación a PDF y JSON.
+- **Generación de Reportes:** Consulta de movimientos por cliente y rango de fechas, con exportación a PDF.
 ### 📝 Nota:
 - 📂 **Script SQL:** [BaseDatos.sql](https://github.com/daleonv/app-person/blob/main/script.sql)  
 - 📂 **Colección de Postman:** [postman_collection.json](https://github.com/daleonv/app-person/blob/main/API%20Documentation.postman_collection.json)  
