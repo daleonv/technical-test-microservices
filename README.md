@@ -1,10 +1,25 @@
-# Resolución de prueba técnica
 
-# Introducción
-El problema propuesto fue solventado usando springboot orientado a microservicios para el  **backend** y Angular para el **frontend**
+# Prueba Técnica 
 
+Este repositorio contiene la solución a la **Prueba Técnica** basada en una **arquitectura de microservicios** para la gestión de clientes, cuentas y movimientos bancarios. La implementación incluye tanto el **Back-End** desarrollado en **Java Spring Boot** como el **Front-End** con **Angular o React**.
 
-## Estructura del Proyecto  
+## 📌 Tecnologías Utilizadas
+
+### Back-End:
+- Java + Spring Boot
+- JPA / Hibernate
+- Base de Datos Relacional (MySQL)
+- Docker
+- Eureka (Service Discovery)
+- API Gateway
+- Pruebas Unitarias con JUnit
+
+### Front-End:
+- Angular
+- Consumo de APIs REST
+- Generación de reportes en formato PDF
+
+## 📂 Estructura del Proyecto
 
 | Módulo | Descripción |
 |--------|------------|
@@ -15,33 +30,11 @@ El problema propuesto fue solventado usando springboot orientado a microservicio
 | **📑 [app-procedure.git](https://github.com/daleonv/app-procedure.git)** | Microservicio encargado de los procesos administrativos o procedimientos específicos del negocio. |
 | **🎨 [app-front.git](https://github.com/daleonv/app-front.git)** | Aplicación **Front-End** desarrollada en **Angular**, encargada de la interfaz de usuario. |
 
+## 🚀 Funcionalidades Implementadas
+
+- **Gestión de Clientes:** CRUD completo para la entidad cliente.
+- **Gestión de Cuentas:** Creación, actualización y eliminación de cuentas bancarias.
+- **Gestión de Movimientos:** Registro de depósitos y retiros, con validaciones de saldo.
+- **Generación de Reportes:** Consulta de movimientos por cliente y rango de fechas, con exportación a PDF y JSON.
 
 
-## Instrucciones
-
-Para levantar el proyecto en un servidor local se deben seguir los siguientes pasos:
-
-Los microservicios deben estar en el mismo directorio donde se descargue el proyecto app-gradle, porque dependen de él para administrar las versiones y las dependencias.
-
-El proyecto app-entities debe ser el primero en compilarse, porque es una dependencia de los demás.
-En el directorio raíz de **app-gradle** se ejecuta el comando 
-> gradle clean build 
-
-Lo siguiente es levantar los microservicios de **app-config**, basta con ejecutar, en la raíz de cada microservicio.
-> gradle clean build 
-
-y posteriormente se ejecuta
-> gradle gradle bootRun
-
-El siguiente paso es aplicar los mismos comandos en cada uno de los microservicios de negocio **app-person** y **app-procedure**.
-
-> gradle clean build 
-
-y posteriormente se ejecuta
-> gradle gradle bootRun
-
-Para el proyecto **app-front**, basta con ejecutar:
-> npm install
-
-y posteriormente se ejecuta
-> ng serve
