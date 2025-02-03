@@ -1,7 +1,7 @@
 
 # Prueba Técnica 
 
-Este repositorio contiene la solución a la **Prueba Técnica** basada en una **arquitectura de microservicios** para la gestión de clientes, cuentas y movimientos bancarios. La implementación incluye tanto el **Back-End** desarrollado en **Java Spring Boot** como el **Front-End** con **Angular o React**.
+Este repositorio contiene la solución a la **Prueba Técnica** basada en una **arquitectura de microservicios** para la gestión de clientes, cuentas y movimientos bancarios. La implementación incluye tanto el **Back-End** desarrollado en **Java Spring Boot** como el **Front-End** con **Angular**.
 
 ## 📌 Tecnologías Utilizadas
 
