@@ -40,4 +40,8 @@ Este repositorio contiene la solución a la **Prueba Técnica** basada en una **
 - 📂 **Script SQL:** [BaseDatos.sql](https://github.com/daleonv/app-person/blob/main/script.sql)  
 - 📂 **Colección de Postman:** [postman_collection.json](https://github.com/daleonv/app-person/blob/main/API%20Documentation.postman_collection.json)  
 
+## 🛠️ Esquema de la arquitectura
+![Esquema de la arquitectura](https://i.ibb.co/RkKZVSRV/Arquitectura.jpg)
+
+
 
